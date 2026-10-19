@@ -1,5 +1,5 @@
 # 🛡️ UglyShield™
-<img src="uglyshield%logo.png" alt="uglyshield logo" width="300">
+![UglyShield logo](references/uglyshield%20logo.png)
 
 **An open-source layout enforcer for AI-generated visuals.**
 
