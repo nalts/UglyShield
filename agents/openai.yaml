@@ -1,0 +1,4 @@
+interface:
+  display_name: "UglyShield"
+  short_description: "Catch layout, text, and logo errors in AI visuals"
+  brand_color: "#27405B"
