@@ -9,6 +9,33 @@ UglyShield™ helps prevent layout failures in AI-generated images, social media
 
 It's not a graphic designer. It's a layout-enforcement system that helps people structure content, identify rendering risks, and catch mistakes before publishing.
 
+## Try UglyShield in 60 seconds
+
+You don't need to write code to try the workflow. Open an AI chat with access to the [UglyShield instructions](SKILL.md), provide the visual, slide, PDF, or text you want reviewed, and try:
+
+> Use UglyShield in Classic mode. Review this visual for missing or misspelled text, cramped layout, weak hierarchy, distorted logos, and any changes to approved wording. Give me a prioritized Red Pen review. Don't change the wording unless I approve it.
+
+For a more detailed review, include the **original approved copy** alongside the generated image or file. UglyShield should distinguish problems it actually inspected from possible problems it could not verify.
+
+Want to make something, not just review it? Ask:
+
+> Use UglyShield in Production mode to make this one-page graphic. Preserve the attached copy exactly and inspect the result before handing it over.
+
+Production requires an AI environment with appropriate creation or editing tools. UglyShield cannot guarantee that a model renders text correctly.
+
+### Install as an AI Skill
+
+The repository already contains the canonical [SKILL.md](SKILL.md) and its supporting [references](references/). If your ChatGPT, Claude, or another AI environment supports importing custom Skills:
+
+1. Download the repository files together (not just `SKILL.md`, which links to references).
+2. Keep `SKILL.md`, the `references/` folder, and the `examples/` folder together in one `uglyshield` directory.
+3. Package that directory as a ZIP only if your environment requires one, then use that environment's custom Skill upload or installation process.
+4. Try: "Use UglyShield to Red Pen this slide without changing approved copy."
+
+If your AI environment does not support custom Skills, you can still provide the [SKILL.md](SKILL.md) instructions and relevant reference files in a conversation. Capabilities and installation steps vary by product and plan; GitHub hosting alone does not install the Skill.
+
+**What UglyShield does:** AI design QA, slide review, layout preflight, visual quality assurance, typography checks, approved-copy preservation, and detection of common AI-generated image errors.
+
 ## Why UglyShield Exists
 
 AI can create beautiful visuals while quietly breaking important details.
